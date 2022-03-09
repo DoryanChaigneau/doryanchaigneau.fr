@@ -1,13 +1,29 @@
 {
-  "name": "sitedoryan",
-  "private": true,
-  "version": "0.0.0",
+  "name": "doryanchaigneau",
+  "version": "1.0.0",
+  "description": "doryan chaigneau",
+  "author": "Doryan CHAIGNEAU",
+  "license": "ISC",
+  "homepage": "https://github.com/DoryanChaigneau/doryanchaigneau.fr#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DoryanChaigneau/doryanchaigneau.fr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DoryanChaigneau/doryanchaigneau.fr/issues"
+  },
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+
+    "start:dev": "npm run --silent clean && parcel serve src/index.html",
+    "clean": "rm -rf .cache dist",
+    "build:dev": "parcel build src/index.html",
+    "postinstall": "npm run build:dev"
   },
   "dependencies": {
+    "readme-md-generator": "^1.0.0",
     "vue": "^3.2.25"
   },
   "devDependencies": {
