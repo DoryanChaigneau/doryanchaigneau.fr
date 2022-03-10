@@ -28,7 +28,7 @@ npm run dev
 ## Run build
 
 ```sh
-npm run build:dev
+npm run build
 ```
 
 
