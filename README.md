@@ -22,21 +22,31 @@ npm install
 ## Usage
 
 ```sh
-npm run start:dev
+npm run dev
 ```
+
+## Run build
+
+```sh
+npm run build:dev
+```
+
 
 ## Author
 
 👤 **Doryan CHAIGNEAU**
 
-* WebSite: [@DoryanChaigneau](https://github.com/DoryanChaigneau) 
+* Website: [@DoryanChaigneau](http://localhost:3000/) 
 * Github: [@DoryanChaigneau](https://github.com/DoryanChaigneau)
-* Linkedin: [@DoryanChaigneau](https://www.linkedin.com/in/doryan-chaigneau-523b8019b/)
+* LinkedIn: [@DoryanChaigneau](https://www.linkedin.com/in/doryan-chaigneau-523b8019b/)
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/DoryanChaigneau/doryanchaigneau.fr/issues). You can also take a look at the [contributing guide](https://github.com/DoryanChaigneau/doryanchaigneau.fr/blob/master/CONTRIBUTING.md).
 
+## Show your support
+
+Give a ⭐️ if this project helped you!
 
 ## 📝 License
 
