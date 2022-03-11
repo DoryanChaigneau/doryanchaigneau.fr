@@ -16,13 +16,13 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-
-    "start:dev": "npm run --silent clean && parcel serve src/index.html",
+    "start:dev": "npm run --silent clean && parcel serve index.html",
     "clean": "rm -rf .cache dist",
-    "build:dev": "parcel build src/index.html",
+    "build:dev": "parcel build index.html",
     "postinstall": "npm run build:dev"
   },
   "dependencies": {
+    "parcel": "^2.3.2",
     "readme-md-generator": "^1.0.0",
     "vue": "^3.2.25"
   },
